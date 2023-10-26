@@ -10,6 +10,6 @@ def consumption(subplot,activation):
     high = [10,20,30]
 
     return [plot(subplot,[low,mid,high],[[0,1,0],[0,1,0],[0,1,0]],
-        ["Consumo","Alto","Normal","Baixo"],["red","orange","green"],0,20,
+        ["Consumo (Km/L)","Alto","Normal","Baixo"],["red","orange","green"],0,20,
         activation,10),
         [triangular(x,low),triangular(x,mid),triangular(x,high)]]
